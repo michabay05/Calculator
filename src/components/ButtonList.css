@@ -1,0 +1,99 @@
+.calc_btn_list {
+  display: grid;
+  gap: 0.5em;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas:
+    "op_clr op_clr op_clr_entry op_div"
+    "num_7 num_8 num_9 op_mul"
+    "num_4 num_5 num_6 op_sub"
+    "num_1 num_2 num_3 op_add"
+    "op_del num_0 op_dot op_eq";
+}
+
+.calc_btn {
+  font-family: var(--ff-primary);
+  font-size: 1.25em;
+  color: var(--clr-white);
+  background-color: transparent;
+  border: 2px solid var(--clr-white);
+  border-radius: 0.2em;
+  padding-block: 0.75em;
+  cursor: pointer;
+}
+
+#num_1 {
+  grid-area: num_1;
+}
+
+#num_2 {
+  grid-area: num_2;
+}
+
+#num_3 {
+  grid-area: num_3;
+}
+
+#num_4 {
+  grid-area: num_4;
+}
+
+#num_5 {
+  grid-area: num_5;
+}
+
+#num_6 {
+  grid-area: num_6;
+}
+
+#num_7 {
+  grid-area: num_7;
+}
+
+#num_8 {
+  grid-area: num_8;
+}
+
+#num_9 {
+  grid-area: num_9;
+}
+
+#num_0 {
+  grid-area: num_0;
+}
+
+#op_add {
+  grid-area: op_add;
+}
+
+#op_sub {
+  grid-area: op_sub;
+}
+
+#op_mul {
+  grid-area: op_mul;
+}
+
+#op_div {
+  grid-area: op_div;
+}
+
+#op_dot {
+  grid-area: op_dot;
+}
+
+#op_del {
+  grid-area: op_del;
+}
+
+#op_eq {
+  grid-area: op_eq;
+}
+
+#op_clr {
+  grid-area: op_clr;
+}
+
+#op_clr_entry {
+  grid-area: op_clr_entry;
+}

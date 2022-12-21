@@ -1,0 +1,28 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@300;400;500;600&display=swap");
+
+:root {
+  --bkgd-clr: #333333;
+  --clr-blue: #023269;
+  --clr-red: rgba(145, 34, 34, 0.575);
+  --clr-white: #f5f5f5;
+  --lt-clr-white: #f5f5f5d0;
+  --ff-primary: "Hanken Grotesk", Calibri, sans-serif;
+  --heading-size: 1.5em;
+}
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bkgd-clr);
+}
+
+/* General Styles */
+.btn {
+  padding: 1em;
+}

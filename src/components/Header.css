@@ -1,0 +1,9 @@
+header {
+  font-family: var(--ff-primary);
+  font-size: var(--heading-size);
+  font-weight: 600;
+  background: var(--clr-blue);
+  color: var(--clr-white);
+  padding-block: 1em;
+  text-align: center;
+}
